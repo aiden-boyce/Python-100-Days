@@ -66,9 +66,9 @@ def caesar_cipher(text, shift, direction):
         new_text += shift_symbol(symbol, shift, is_encrypt)
 
     if is_encrypt:
-        print(f"The encoded text is: {new_text}")
+        print(f"The encoded text is: {new_text}\n")
     else:
-        print(f"The decoded text is: {new_text}")
+        print(f"The decoded text is: {new_text}\n")
 
 
 def main():
@@ -87,9 +87,9 @@ def main():
         caesar_cipher(text, shift, direction)
 
         result = input("Would you like to continue? 'Yes' or 'No'\n").lower()
-        if result == "no":
-            continue_program = False
-            print("Goodbye!")
+        continue_program = result != "no"
+
+    print("Goodbye")
 
 
 if __name__ == "__main__":
