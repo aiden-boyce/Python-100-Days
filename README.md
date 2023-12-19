@@ -10,3 +10,5 @@ Day | Project
 5. Password Generator
 6. Navigate Maze on External Website
 7. Hangman
+8. Caesar Cipher
+9. Blind Auction
