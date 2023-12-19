@@ -1,4 +1,4 @@
-# Day Seven
+# Day 7
 from random import choice
 from hangman_features import stages, word_list, logo
 

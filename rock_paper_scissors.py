@@ -1,4 +1,4 @@
-# Day Four
+# Day 4
 from random import randint
 
 rock = """

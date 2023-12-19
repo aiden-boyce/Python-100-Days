@@ -1,4 +1,4 @@
-# Day Two
+# Day 2
 print("Welcome to the tip calculator.")
 total_bill = float(input("What was the total bill? $"))
 tip_percentage = int(

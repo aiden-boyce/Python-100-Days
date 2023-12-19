@@ -1,4 +1,4 @@
-# Day Nine
+# Day 9
 from os import system, name
 
 LOGO = '''
