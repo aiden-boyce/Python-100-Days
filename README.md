@@ -8,3 +8,5 @@ Day | Project
 3. Treasure Island
 4. Rock Paper Scissors
 5. Password Generator
+6. Navigate Maze on External Website
+7. Hangman
