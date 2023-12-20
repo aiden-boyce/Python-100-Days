@@ -1,4 +1,4 @@
-# Day 9
+# Day 8
 LOGO = (
     """           
  ,adPPYba, ,adPPYYba,  ,adPPYba, ,adPPYba, ,adPPYYba, 8b,dPPYba,  
