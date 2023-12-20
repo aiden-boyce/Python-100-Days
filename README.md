@@ -12,3 +12,6 @@ Day | Project
 7. Hangman
 8. Caesar Cipher
 9. Blind Auction
+10. Calculator
+11. Blackjack
+12. Guess the Number
