@@ -15,3 +15,5 @@ Day | Project
 10. Calculator
 11. Blackjack
 12. Guess the Number
+13. Debugging Tutorial
+14. Higher or Lower
