@@ -15,7 +15,7 @@ class MoneyMachine:
         """Return change and Add profit"""
         change = amount_paid - price
         if change < 0:
-            print("Sorry that's not enough money. Money refunded.")
+            print("Sorry that's not enough money. Money refunded.\n")
             return False
         elif change > 0:
             change = "{:.2f}".format(change)

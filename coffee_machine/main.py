@@ -24,7 +24,7 @@ def main():
         if drink is None:
             continue
         if not coffee_maker.enough_resources(drink):
-            print(f"Sorry, can't make {choice}.")
+            print(f"Sorry, can't make {drink.name}.\n")
             continue
         if not money_machine.insert_coins(drink.cost):
             continue
