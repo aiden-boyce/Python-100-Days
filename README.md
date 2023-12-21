@@ -17,3 +17,6 @@ Day | Project
 12. Guess the Number
 13. Debugging Tutorial
 14. Higher or Lower
+15. Regular Coffee Maker
+16. Coffee Maker OOP
+17. True/False Trivia Quiz
