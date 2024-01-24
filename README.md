@@ -20,3 +20,4 @@ Day | Project
 15. Regular Coffee Maker
 16. Coffee Maker OOP
 17. True/False Trivia Quiz
+18. Turtle Graphics
