@@ -21,3 +21,4 @@ Day | Project
 16. Coffee Maker OOP
 17. True/False Trivia Quiz
 18. Turtle Graphics
+19. Etch A Sketch and Turtle Race
