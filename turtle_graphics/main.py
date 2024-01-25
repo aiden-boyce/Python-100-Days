@@ -75,23 +75,27 @@ def get_colors_from_image(image, num_colors):
         rgb = (red, green, blue)
         rgb_colors.append(rgb)
     # Remove the white background colors
-    rgb_colors = rgb_colors[2:]
+    rgb_colors = rgb_colors[3:]
     return rgb_colors
 
 
-def draw_m_x_n_spot_painting(turtle, colors, width, height):
-    "Draw a m by n spot painting"
+def draw_m_x_n_spot_painting(turtle, colors, m_dots, n_dots):
+    """Draw a m by n spot painting"""
     turtle.penup()
+    turtle.hideturtle()
     turtle.setheading(225)
     turtle.forward(300)
-    pos_zero = width * 50
-    for _ in range(height):
-        for _ in range(width):
+    pos_zero = m_dots * 50
+
+    # Height of the spot painting
+    for _ in range(n_dots):
+        turtle.setheading(0)
+        # Place m dots in a row
+        for _ in range(m_dots):
             color = choice(colors)
-            turtle.color(color)
-            turtle.setheading(0)
-            turtle.dot(20)
+            turtle.dot(20, color)
             turtle.forward(50)
+        # Go up then Return to first position
         turtle.setheading(180)
         turtle.forward(pos_zero)
         turtle.setheading(90)
